@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recept</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="grid-container">
+    <header>
+        <h1>Kabbes recept</h1>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="dropdown">
+                <select id="förrätter">
+                    <option value="Förrätter">Förrätter</option>
+                    <option value="Skagentoast" id="Skagentoast">Skagentoast</option>
+                    <option value="Quesadillas" id="Quesadillas">Quesadillas</option>
+                </select>
+                </div>
+                <select id="Huvudrätter">
+                    <option value="Huvudrätter">Huvudrätter</option>
+                    <option value="Svamprisotto" id="mushroomRisotto">Svamprisotto</option>
+                    <option value="Ugnsbakad lax" id="salmon">Ugnsbakad</option>
+                </select>
+
+            <select id="Efterrätter">
+                <option value="Efterrätter">Efterrätter</option>
+                <option value="Kladdkaka" id="Kladdkaka1">Kladdkaka</option>
+                <option value="Kaka" id="Cake">Kaka med grädde och bär</option>
+            </select>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <article>
+            <h2>Svamprisotto</h2>
+            <p class="risotto">God svamprisotto som passar till det mesta!</p>
+            <a href="risotto.html">
+            <img src="img/svamprisotto-880x360.jpg" alt="risotto" class="img_recipe"></a>
+            <p><button class="submit" id="showRisotto"> Visa Ingredienser </button>
+
+            <p class="output" id="output"></p></p>
+        </article>
+        <article>
+            <h2>Kladdkaka</h2>
+            <p class="kladdkaka">Kladdkaka som passar till de flesta tillfällen!</p>
+            <img src="img/kladdkaka_2000x1300.jpg" alt="kladdkaka" class="img_recipe">
+        </article>
+        <article>
+            <h2>Ugnsbakad lax med pesto</h2>
+            <p>Saftig lax med röd eller grön pesto</p>
+            <img src="img/lax_1176x715.png" alt="lax" class="img_recipe">
+        </article>
+        <article>
+            <h2>Quesadillas</h2>
+            <p>Goda quesadillas som går att fylla med valfria tillbehör</p>
+            <img src="img/quesadilla_1060.jpg" alt="quesadillas" class="img_recipe">
+        </article>
+
+        <article>
+            <h3 class="output">Favoriter</h3>
+            <button class="submit" id="showFavourites"> Visa Favoriter </button>
+
+            <p class="output" id="output2"></p>
+
+
+        </article>
+
+        <article>
+            <p id="output1"></p>
+            <form id="formReg">
+                <select id="favOptions">
+                    <option value="Risotto" id="risotto"></option>
+                    <option value="Kladdkaka" id="kladdkaka"></option>
+                </select>
+                <button class="favourites" id="localStorage" onclick="showLocalStorage()" >Show localstorage</button>
+            </form>
+            <p id="outputLocalStorage"></p>
+        </article>
+
+
+    </main>
+
+</section>
+
+<script src="js/localstorage.js"></script>
+<!--<script src="js/menu.js"></script>-->
+<script src="js/fetch.js"></script>
+</body>
+</html>
+

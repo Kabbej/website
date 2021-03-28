@@ -1,0 +1,31 @@
+[
+  {
+    "recipeName": "Risotto",
+    "recipeTime": "40min",
+    "recipeIngredients": [
+      "3 schalottenlökar",
+      "1 Vitlöksklyfta",
+      "9 dl Svampbuljong (vatten + 2 tärningar)",
+      "1msk Olivolja",
+      "3dl Risottoris",
+      "2dl vitt eller matlagningsvin",
+      "250g Svamp (välj själv din favorit)",
+      "2dl riven parmesanost",
+      "Salt och Peppar"
+    ]
+  },
+  {
+    "recipeName": "Kladdkaka",
+    "recipeTime": "20min",
+    "recipeIngredients": [
+      "150g Smör",
+      "2dl Socker",
+      "1dl Kakao",
+      "2tsk vaniljsocker",
+      "2 ägg",
+      "2dl vetemjöl"
+    ]
+  }
+
+]
+
